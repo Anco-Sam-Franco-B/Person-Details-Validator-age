@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: darkcyan ;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   font-family: sans-serif;
+}
+.user_form{
+    background: white;
+    width: 350Px;
+    padding: 20px;
+    border-radius: 30px;
+}
+h2{
+   text-align: center;
+    font-size: 17px;
+    margin: 4px auto;
+}
+.form_entry{
+    padding: 10px;
+    width: 100%;
+}
+.form_entry input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ddd;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 30px;
+}
+.dtd, .dob{
+    width: 100%;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.boxes input[type="number"]{
+    padding: 10px;
+    border: none;
+    background: #ddd;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 30px;
+    width: 90px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn button{
+    padding: 10px;
+    border: none;
+    background: #ddd;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 30px;   
+}
+.data_retrive{
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    width: 350Px;
+}
+.data_retrive fieldset{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+}
+.data_retrive fieldset legend{
+    width:120px;
+    padding: 10px;
+    border-radius: 30px;
+    background: #ddd;
+}
+.data_retrive .reultbox{
+    width: 100%;
+}
+.data_retrive .reultbox p{
+    border-radius: 30px;
+    background: #ddd;
+    padding: 10px;
+    margin: 10px auto;
+}

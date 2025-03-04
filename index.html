@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesonal</title>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="user_form">
+            <H2>PLEASE ENTER  YOU DETAILS</H2>
+
+            <div class="form_entry">
+                <label for="fname">firstname</label><br>
+                <input type="text"  id="fname"><br>
+
+                <label for="lname">lastname</label><br>
+                <input type="text" id="lname"><br>
+
+                <div class="dob">
+                    <h2>birthday date</h2>
+
+                    <div class="boxes">
+                        <input type="number"id="dayB" placeholder="day">
+                        <input type="number" id="monthB" placeholder="month">
+                        <input type="number" id="yearB" placeholder="year">
+                    </div>
+                </div>
+
+                <div class="dtd">
+                    <h2>date today</h2>
+
+                    <div class="boxes">
+                        <input type="number"id="dayD" placeholder="day">
+                        <input type="number" id="monthD" placeholder="month">
+                        <input type="number" id="yearD" placeholder="year">
+                    </div>
+                    
+                </div>
+
+                <div class="btn">
+                    <br>
+                    <button onclick="send()">submit</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="data_retrive">
+                <fieldset>
+                    <legend>Your details</legend>
+
+                    <div class="reultbox">
+                        <p id="resultA"></p>
+                        <p id="resultB"></p>
+                        <p id="resultC"></p>
+                        <p id="resultD"></p>
+                        <p id="resultE"></p>
+                        <p id="resultF"></p>
+                    </div>
+                    
+                </fieldset>
+
+        </div>
+        
+    </div>
+</body>
+</html>
